@@ -1,3 +1,5 @@
+using InventoryService.Core.Entities;
+
 namespace InventoryService.Core.Interfaces
 {
     public interface IPurchaseOrderRepository

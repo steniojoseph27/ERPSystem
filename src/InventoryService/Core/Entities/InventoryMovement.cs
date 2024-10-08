@@ -7,6 +7,6 @@ namespace InventoryService.Core.Entities
         public int WarehouseId { get; set; }
         public int Quantity { get; set; }
         public DateTime MovementDate { get; set; }
-        public string MovementType { get; set; } // "INBOUND" or "OUTBOUND"
+        public string MovementType { get; set; } = string.Empty; // "INBOUND" or "OUTBOUND"
     }
 }

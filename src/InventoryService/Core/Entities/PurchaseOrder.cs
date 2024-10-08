@@ -7,6 +7,6 @@ namespace InventoryService.Core.Entities
         public int WarehouseId { get; set; }
         public int Quantity { get; set; }
         public DateTime OrderDate { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; } = string.Empty;
     }
 }

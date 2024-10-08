@@ -8,6 +8,6 @@ namespace InventoryService.Core.Entities
         public int ProductId { get; set; }
         public int RecordedQuantity { get; set; }
         public int ActualQuantity { get; set; }
-        public string Notes { get; set; }
+        public string Notes { get; set; } = string.Empty;
     }
 }
